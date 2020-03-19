@@ -3,15 +3,15 @@
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="../index.html">
         <div class="sidebar-brand-icon rotate-n-15">
-            <i class="fas fa-cogs"></i>
+            <i class="fas fa-spinner"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">Subilla <sup>v1</sup></div>
+        <div class="sidebar-brand-text mx-3">{{ config('app.name', 'Laravel') }} <sup>v1</sup></div>
     </a>
     <!-- Divider -->
     <hr class="sidebar-divider my-0">
     <!-- Nav Item - Dashboard -->
     <li class="nav-item">
-        <a class="nav-link" href="/">
+        <a class="nav-link" href="/admin">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard</span></a>
     </li>
@@ -30,7 +30,7 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Daftar Formulir:</h6>
-                <a class="collapse-item" href="{{route('formulir1.index')}}">Formulir 1</a>
+                <a class="collapse-item" href="">Formulir 1</a>
             </div>
         </div>
     </li>
